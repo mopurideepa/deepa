@@ -1,6 +1,5 @@
 name: shell command
 on: push
-workflow dispatch:
 jobs:
   my-job:
     runs-on: ubuntu-latest
@@ -11,9 +10,3 @@ jobs:
         run: |
           echo "github action"
           echo "goodbye"
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: |
-          echo "good bye"
