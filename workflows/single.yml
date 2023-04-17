@@ -1,10 +1,8 @@
 name: shell command
 on: push
-workflow dispatch:
 jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World" 
-
+        run: echo "Hello World!" 
