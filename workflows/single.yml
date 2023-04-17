@@ -9,4 +9,7 @@ jobs:
       - name: my-step2
         run: |
           echo "github action"
-          echo "goodbye"
+          echo "goodbye
+      - name: my step 3
+        run: |
+          echo " welcome to github action"
