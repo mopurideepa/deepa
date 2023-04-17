@@ -9,4 +9,4 @@ jobs:
       - name: my-step2
         run: |
           echo "github action"
-          echo "goodbye"
+          echo "say bye "
